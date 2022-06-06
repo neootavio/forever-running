@@ -18,7 +18,7 @@
 .fireball{
     position: absolute;
     bottom: 0;
-    width: 180px;
+    width: 280px;
     right: -280px;
     animation: fireball-animation 5s infinite linear;
 }
@@ -36,7 +36,7 @@
 }
 
 .clouds{
-    width: 1480px;
+    width: 400px;
     height: 300px;
     position: absolute;
     top: 0%;
