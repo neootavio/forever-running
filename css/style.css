@@ -75,7 +75,7 @@
     }
 }
 
-@keyframes jump {
+/*@keyframes jump {
     0% {
         bottom: 0;
     }
@@ -86,7 +86,7 @@
         bottom: 0;
     }
     
-}
+}*/
 
 @keyframes scenario-animation{
     from{
