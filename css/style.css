@@ -27,7 +27,7 @@
     width: 150px;
     position: absolute;
     bottom: 0;
-    animation: jump 10s infinite linear;   
+    animation: clouds-animation 5s infinite linear; 
 }
 
 .scenario{
@@ -75,7 +75,7 @@
     }
 }
 
-/*@keyframes jump {
+@keyframes jump {
     0% {
         bottom: 0;
     }
@@ -86,7 +86,7 @@
         bottom: 0;
     }
     
-}*/
+}
 
 @keyframes scenario-animation{
     from{
