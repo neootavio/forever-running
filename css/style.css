@@ -27,7 +27,7 @@
     width: 150px;
     position: absolute;
     bottom: 0;
-    animation: jump 10s infinite linear;   
+    animation: run-back-animation 2s infinite alternate-reverse;   
 }
 
 .scenario{
@@ -53,14 +53,25 @@
     }
 }
 
-@keyframes fireball-animation {
-    from {
-        right: -100%;
+@keyframes run-back-animation {
+    0% {
+        right: 100%;
+    } 
+    10% {
+        right: 50%;
     }
-    to {
+    30% {
+        right: 50%;
+    }
+    50%{
+        right: 40%;
+    }
+    70%{
+        right: 30%;
+    }
+    100%{
         right: 100%;
     }
-    
 }
 
 @keyframes fly-animation {
@@ -75,7 +86,7 @@
     }
 }
 
-/*@keyframes jump {
+@keyframes jump {
     0% {
         bottom: 0;
     }
@@ -86,7 +97,7 @@
         bottom: 0;
     }
     
-}*/
+}
 
 @keyframes scenario-animation{
     from{
